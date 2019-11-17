@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Application RevitWpf</Name>
+    <Assembly>RevitWpfTemplate2019.dll</Assembly>
+    <FullClassName>RevitWpfTemplate2019.App</FullClassName>
+    <ClientId>1FD73F30-B725-4375-8B5F-6CEFF23CE1CA</ClientId>
+    <VendorId>Tien Duy NGUYEN</VendorId>
+    <VendorDescription>tienduy.nguyen</VendorDescription>
+  </AddIn>
+</RevitAddIns>
