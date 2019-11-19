@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C99F5146-EF6D-4F26-AACE-3857E6FE45C7}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>RevitWpf</RootNamespace>
+    <RootNamespace>$projectname$</RootNamespace>
     <AssemblyName>$safeprojectname$</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -117,7 +117,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="RevitWpfTemplate2019.addin" />
+    <None Include="$projectname$.addin" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />
