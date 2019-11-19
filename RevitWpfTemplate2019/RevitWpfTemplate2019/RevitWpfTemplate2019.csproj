@@ -117,7 +117,6 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="$projectname$.addin" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />
@@ -125,6 +124,7 @@
     <Folder Include="Sources\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="RegisterAddin.addin" />
     <None Include="Resources\icon.ico" />
   </ItemGroup>
   <ItemGroup>
