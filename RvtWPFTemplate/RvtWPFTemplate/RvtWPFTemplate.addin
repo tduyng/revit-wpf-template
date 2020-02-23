@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Revit Utilities </Name>
+    <Assembly>TD.Bundle\RvtWPFTemplate.dll</Assembly>
+    <FullClassName>RvtWPFTemplate.AppCommand</FullClassName>
+    <Description>Add-In Revit Develop by TD</Description>
+    <ClientId>B7202CB7-05F0-4ED7-8122-498EA4A7BE68</ClientId>
+    <VendorId>Tien Duy NGUYEN</VendorId>
+    <VendorDescription>tienduy.nguyen</VendorDescription>
+  </AddIn>
+</RevitAddIns>
