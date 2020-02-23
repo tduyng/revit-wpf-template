@@ -31,5 +31,5 @@ MIT © [Tien-Duy NGUYEN](https://github.com/tienduy-nguyen)
 ----------------------------------------------------------------------
 Special thanks to [TheBuildingCoder](https://thebuildingcoder.typepad.com/blog/about-the-author.html) and [HOKGroup](http://www.hok.com) for helping me to complete my solution.
 
-I hope my solution will help you. 
+I hope my solution will be useful for you. 
 Any suggestion and contributions are highly appreciated. 🙏
