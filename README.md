@@ -2,7 +2,7 @@
 Template in visual studio for creating Revit C# .net addin with WPF
 
 WPF in Revit API maybe make some difficulties for the first times to work with it.
-As a selt-touch developper, I wastes many times to understand how does it works.
+As a beginner and a selt-touch developper, I waste many times to understand how does it works.
 So, I create this template to using in my future other projects.
 I hope my solution will help you.
 Thank thebuildingcoder and HOKGroup for giving me to this solution.
