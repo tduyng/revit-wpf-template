@@ -14,12 +14,52 @@ In this template, I show how I use:
   - Fix some problem with modeless forme: topmost, Window owner, minimize Window
   - Integrate type Window, Usercontrol in this template
   - Utils for image of icon of ribbon constrol Revit
-  
-Feels free to 
+  - Work with Json settings file
+ 
+ 
+ ### How to use it?
 
-### How to use it?
+* Clone/download this repository and open the .sln at the root of the repository with Microsoft Visual Studio.
+* Re-link references to RevitAPI.dll and others which may be missing  and restore package from nuget package manager
+* Build the solution - Building the solution will automatically create and copy the add-in files to the folder for Revit 2019.
+Location  --  C:\ProgramData\Autodesk\Revit\Addins\2019\TD.Bundle
+You can change it in Post-Built Event Command Line (Project --> Properties --> Build Event)
 
 
+
+![](RvtWPFTemplate/Images/PostBuiltEvent.png)
+
+* In order to use this as a starter for your application, make sure you first refactor the content in the application files (namespace, assembly name, classes, GUID, etc.).
+* You can create a template visual studio like the template Revit API of thebuildingcoder.
+Follow the guide: [Create item template in Visual Studio](https://mathcadbimthingy.wordpress.com/2017/01/18/create-project-and-item-templates-in-visual-studio-revit-apiwpf-series-13/)
+ 
+ 
+ 
+ UI Addin Exemple in template:
+ 
+ 
+ 
+![](RvtWPFTemplate/Images/UI.png)
+
+
+Demo:
+
+
+
+
+![](RvtWPFTemplate/Images/video.gif)
+
+
+#### Visual studio project
+Tree Project
+
+
+![](RvtWPFTemplate/Images/ProjectVS.png)
+
+Code behind:
+
+
+![](RvtWPFTemplate/Images/CodeBehindWindow.png)
 
 ### Third Party
 - Newtonsoft.Json
