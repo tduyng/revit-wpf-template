@@ -1,12 +1,16 @@
-# revit-wpf-template
-Template visual studio for creating Revit C# .net addin with WPF
+# Revit WPF Template
+Template in visual studio for creating Revit C# .net addin with WPF
 
+WPF in Revit API maybe make some difficulties for the first times to work with it.
+As a selt-touch developper, I wastes many times to understand how does it works.
+So, I create this template to using in my future other projects.
+I hope my solution will help you.
+Thank thebuildingcoder and HOKGroup for giving me to this solution.
 
-This is my first template wpf for creating Revit Addin. I'm learning the first solution with my friend to understand:
-
-- Using WPF for revit api
-- Data binding
-- Using external event for the button and the modeless diaglog
-
-
-I am learning the pattern MVVM and I will changing this template soon.
+In this template, I show how I use:
+  - MVVM pattern
+  - External Event of Revit API with modeless form WPF
+  - Binding command, not use directely event of WPF
+  - Fix some problem with modeless forme: topmost, Window owner, minimize Window
+  - Integrate type Window, Usercontrol in this template
+ 
