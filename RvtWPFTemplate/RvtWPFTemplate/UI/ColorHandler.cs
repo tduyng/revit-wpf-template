@@ -21,10 +21,12 @@ namespace RvtWPFTemplate.UI
 
         public ColorViewModel ViewModel { get { return viewModel; } set { viewModel = value; } }
 
-        public void Execute(UIApplication app)
+        public void Execute(UIApplication uiapp)
         {
-            _doc = app.ActiveUIDocument.Document;
-            _app = app.Application;
+            _uiapp = uiapp;
+            _uidoc = uiapp.ActiveUIDocument;
+            _app = uiapp.Application;
+            _doc = uiapp.ActiveUIDocument.Document;
             try
             {
                 switch (Request.Take())
