@@ -131,14 +131,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="ResourcesXaml\ColorConvertResources.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="ResourcesXaml\OptionConverterResouces.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="UI\ColorWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -154,7 +146,7 @@
   <PropertyGroup>
     <PostBuildEvent>if not exist "$(ProgramData)\Autodesk\REVIT\Addins\2019\TD.Bundle" mkdir "$(ProgramData)\Autodesk\REVIT\Addins\2019\TD.Bundle"
 
-if exist "$(ProgramData)\Autodesk\Revit\Addins\2019" copy "$(ProjectDir)*.addin" "$(ProgramData)\Autodesk\Revit\Addins\2019"
-if exist "$(ProgramData)\Autodesk\Revit\Addins\2019" copy "$(ProjectDir)$(OutputPath)*.dll" "$(ProgramData)\Autodesk\Revit\Addins\2019\TD.Bundle"</PostBuildEvent>
+if  exist "$(ProgramData)\Autodesk\Revit\Addins\2019" copy "$(ProjectDir)*.addin" "$(ProgramData)\Autodesk\Revit\Addins\2019"
+if  exist "$(ProgramData)\Autodesk\Revit\Addins\2019" copy "$(ProjectDir)$(OutputPath)*.dll" "$(ProgramData)\Autodesk\Revit\Addins\2019\TD.Bundle"</PostBuildEvent>
   </PropertyGroup>
 </Project>

@@ -23,9 +23,9 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/RvtWPFTemplate;component/ResourcesXaml/ButtonResources.xaml" />
-                <ResourceDictionary Source="/RvtWPFTemplate;component/ResourcesXaml/ColorConvertResources.xaml" />
-                <ResourceDictionary Source="/RvtWPFTemplate;component/ResourcesXaml/OptionConverterResouces.xaml" />
             </ResourceDictionary.MergedDictionaries>
+            <local:ComponentOptionConverter x:Key="OptionConverter" />
+            <local:BrushColorConverter x:Key="ColorConverter" />
         </ResourceDictionary>
     </Window.Resources>
     <Grid>
